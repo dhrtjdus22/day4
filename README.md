@@ -1,5 +1,6 @@
 DAY4
 ===================
+# import
 ```
 1. from ? import *
 2. from ? import ?
