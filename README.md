@@ -113,28 +113,36 @@ for i , key in enumerate(d) :
 2 영어 30   
 3 과학 50   
 
-# .values() -> 값을 다룰때 (int나 str 형식이 아님)
-# .keys() -> 키를 다룰때
-# .get( key ) -> 입력한 key의 value를 가져옴(숫자일경우 int , 문자일경우 str)
-
-# items()
-- 키와 값을 다룰 때
-
+.values()   
+- 값을 다룰때 (int나 str 형식이 아님)   
+   
+.keys()   
+-키를 다룰때
+   
+.get( key )   
+- 입력한 key의 value를 가져옴(숫자일경우 int , 문자일경우 str)
+   
+items()   
+- 키와 값을 다룰 때   
+   
+```
 for k , v in d.items() :
     print(k,v)
+```
+결과   
+   
+이름 김마마   
+수학 90    
+영어 30   
+과학 50   
 
--> 이름 김마마
-    수학 90 
-    영어 30
-    과학 50
-
-# zip()
+zip()   
 - 시퀀스 쌍을 만든다
 
-# reverse()
+reverse()   
 - 역방향 시퀀스 생성
 
-# sorted()
+sorted()   
 - 정렬된 결과
 
 *****************************************************************
