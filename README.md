@@ -110,7 +110,7 @@ for dan in dans :
 # 딕셔너리 메소드
 
 ### enumerate() 
-- 인덱스와 값을 다룰 때
+> 인덱스와 값을 다룰 때
 
 ```
 for i , key in enumerate(d) :
