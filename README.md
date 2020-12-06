@@ -5,9 +5,9 @@ DAY4
 2. from ? import ?
 3. import ? as ?
 ```
-1 ex) from random import * -> random에 있는 모든함수를 임포트
-2 ex) from random import randint -> random에 있는 함수중 randint만 임포트
-3 ex) import random as rnd -> rnd.randint() 와 같이 사용할수 있게됨
+1 ex) from random import * -> random에 있는 모든함수를 임포트   
+2 ex) from random import randint -> random에 있는 함수중 randint만 임포트   
+3 ex) import random as rnd -> rnd.randint() 와 같이 사용할수 있게됨   
 
 -----------------------------------------------------------------------------
 # 랜덤 메서드
