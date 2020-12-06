@@ -6,13 +6,13 @@ DAY4
 2. from ? import ?
 3. import ? as ?
 ```
-### 1 from random import *
+1. from random import *
 > random에 있는 모든함수를 임포트
 
-### 2 from random import randint
+2. from random import randint
 > random에 있는 함수중 randint만 임포트
 
-### 3 import random as rnd
+3. import random as rnd
 > rnd.randint() 와 같이 사용할수 있게됨   
 
 -----------------------------------------------------------------------------
